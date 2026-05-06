@@ -4,7 +4,7 @@ import TotalCost from "./TotalCost";
 import { useSelector, useDispatch } from "react-redux";
 import { incrementQuantity, decrementQuantity } from "./venueSlice";
 import { incrementAvQuantity,decrementAvQuantity } from "./avSlice";
-import {toggleMealSelection} from './mealSlice.jsx'
+import {toggleMealSelection} from './mealsSlice'
 
 
 const ConferenceEvent = () => {
